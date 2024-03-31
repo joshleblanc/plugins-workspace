@@ -5,8 +5,8 @@ resolver = "2"
 [workspace.dependencies]
 serde = { version = "1", features = ["derive"] }
 log = "0.4"
-tauri = "0"
-tauri-build = "0"
+tauri = "1.0.0.beta-*"
+tauri-build = "1.0.0.beta-*"
 serde_json = "1"
 thiserror = "1"
 
